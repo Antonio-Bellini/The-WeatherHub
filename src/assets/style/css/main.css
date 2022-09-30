@@ -1,0 +1,80 @@
+/*COLOR PALETTE*/
+:root {
+  --mainColor: #90B8CF;
+  --black: #000000;
+  --white: #FFFFFF;
+}
+
+/*VARIABLES*/
+:root {
+  --title: 35px;
+  --textOne: 15px
+  --textTwo: 10px;
+  --radius: 10px;
+  --radiusTwo: 15px;
+  --radiusThree: 20px;
+  --radiusFour: 25px;
+  --radiusFive: 30px;
+  --timeOne: .1s;
+  --timeTwo: .2s;
+  --timeThree: .3s;
+  --timeFour: .4s;
+  --timeFive: .5s;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.home {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--mainColor);
+  width: 100vw;
+  height: 100vh;
+}
+.home__card {
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+  background: var(--white);
+  width: 25vw;
+  height: 80vh;
+  border-radius: var(--radiusFive);
+}
+.home__card-city {
+  border: 1px solid black;
+  margin: 8% auto auto;
+  padding: 2%;
+  text-align: center;
+}
+.home__card-figure {
+  border: 1px solid black;
+  margin: 5% auto auto;
+  width: 100%;
+  height: 30%;
+}
+.home__card-temperature {
+  border: 1px solid black;
+  margin: 5% auto auto;
+  width: 100%;
+  height: 15%;
+}
+.home__card-detailsOne {
+  border: 1px solid black;
+  margin: 5% auto auto;
+}
+.home__card-detailsTwo {
+  border: 1px solid black;
+  margin: 5% auto auto;
+  width: 100%;
+  height: 25%;
+}

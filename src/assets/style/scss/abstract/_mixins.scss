@@ -1,0 +1,17 @@
+@mixin center {
+    display: block;
+    margin: 0 auto;
+}
+
+@mixin horizontal-alignment {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@mixin vertical-alignment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
